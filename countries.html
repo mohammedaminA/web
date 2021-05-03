@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries</title>
+  <link rel="stylesheet" href="./Styles/countries.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    
+   
+    
+
+  
+
+</head>
+<body>
+  <!-- Menu Overlay -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- Menu Items -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="index.html">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="countries.html">Countries</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="statistics.html">Statistics</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="about.html">About Us</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Menu Bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <!-- Sections -->
+  <section id="home"><img src="./Assets/logo.png" class="logo">
+
+    <iframe src="https://www.google.com/maps/d/embed?mid=1VHIpWBlKlcxDb3JmHUkhV-Plop-_EIbl" width="100%" height="100%" id= "frame"></iframe>
+    
+    <style>
+      #frame {
+          pointer-events:none;
+      }
+      </style>
+      
+  </section>
+  <section id="mauritius"><h1 style= "font-size:1.5vw;" id= "mau">Mauritius Travel Restrictions</h1></section>
+  <section id="ethiopia"><h1 style= "font-size:1.5vw;" id = "eth">Ethiopia Travel Restrictions</h1></section>
+  <section id="uk"><h1 style= "font-size:1.5vw;" id = "ukk">UK Travel Restrictions</h1></section>
+  <!-- Script -->
+  <script src="./Scripts/countries.js"></script>
+
+</body>
+</html>
