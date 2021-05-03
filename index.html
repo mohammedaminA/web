@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Menu Overlay -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- Menu Items -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="index.html">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="/countries.html">Countries</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="./statistics.html">Statistics</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="./about.html">About Us</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="./contact.php">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Menu Bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div> 
+    <section class="bg">
+    <a class="btn btn-primary btn-lg" id= "get-started" href = "countries.html">Get Started</a>
+    <img src="./Assets/Logo.png" alt="" class="logo">
+    <div class="jumbotron">
+      <h3 class= "title"> Fcovid</h3>
+      <p>Aggregated Information on travel between the UK, Mauritius and Ethiopia during the Coronavirus</p>
+    </div>
+    <div class = "container-fluid">
+    <div class="card" id = "card-mu" style="width: 18rem;">
+      <img class="card-img-top" src="./Assets/international-2657260_1280.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Mauritius</h5>
+        <p class="card-text">Mauritius is located in the southern tip of Africa. An island which has become a tourist haven as of late!</p>
+        <a href="./countries.html#mauritius" class="btn btn-primary">Check Restrictions</a>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+    <div class="card" id = "card-eth" style="width: 18rem;">
+      <img class="card-img-top" src="./Assets/ethiopia.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Ethiopia</h5>
+        <p class="card-text">Pride of the horn of Africa! An destination for cultural and historical landmarks!</p>
+        <a href="./countries.html#ethiopia" class="btn btn-primary">Check Restrictions</a>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+     <div class="card" id = "card-uk" style="width: 18rem;">
+      <img class="card-img-top" src="./Assets/uk.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">United Kingdom</h5>
+        <p class="card-text"> Made up of four countries, the UK is a melting pot of human civilization that begs to be experienced by anyone!</p>
+        <a href="./countries.html#uk" class="btn btn-primary">Check Restrictions</a>
+      </div>
+    </div>
+    </div>
+   </section>
+    <div class="loading-text">0%</div>
+<section class = "sss">
+  
+</section>
+    <script src="./Scripts/scipts.js"></script>
+  </body>
+</html>
