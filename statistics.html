@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistics</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="./Styles/countries.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+
+
+
+</head>
+<body>
+  <!-- Menu Overlay -->
+  <div class="overlay overlay-slide-left" id="overlay">
+    <!-- Menu Items -->
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1"><a href="index.html">Home</a></li>
+        <li id="nav-2" class="slide-out-2"><a href="countries.html">Countries</a></li>
+        <li id="nav-3" class="slide-out-3"><a href="statistics.html">Statistics</a></li>
+        <li id="nav-4" class="slide-out-4"><a href="about.html">About Us</a></li>
+        <li id="nav-5" class="slide-out-5"><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Menu Bars -->
+  <div class="menu-bars" id="menu-bars">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</body>
+
+
+  <canvas id = "line-chart"> </canvas>
+  <canvas id = "line-chart2"> </canvas>
+  <canvas id = "line-chart3"></canvas>
+  <script src="./Scripts/chartScript.js"></script>
+</body>
+</html>
